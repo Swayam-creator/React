@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  /* Container for the form */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Center the form container */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="number"] {
+    width: 250px;
+  }
+  
+  /* Card style for individual expense items */
+  .card {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .expense-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card .expense-amount {
+    color: #2e8b57;
+    font-size: 1.2rem;
+  }
+  
+  /* Style buttons inside cards to be inline */
+  .card button {
+  
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .card button:hover {
+    background-color: #c0392b;
+  }
+  
+  .card .edit-btn {
+    background-color: #f39c12;
+  }
+  
+  .card .edit-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Styling for the total expense */
+  h1.total-expense {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
